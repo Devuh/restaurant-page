@@ -9,6 +9,7 @@ body {
     background-size: cover;
     padding: 0px;
     margin: 0px;
+    padding-bottom: 50px;
 }
 
 nav {
@@ -34,10 +35,10 @@ nav > button:hover {
 
 #content {
     width: 900px;
-    height: 600px;
     background-color: rgb(231, 231, 231);
     margin: auto;
     margin-top: 50px;
+    padding-bottom: 50px;
     border-top: 30px rgb(166, 166, 223) solid;
     border-radius: 10px;
     position: relative;
@@ -68,7 +69,7 @@ h2#title {
 #content > div {
     display: flex;
     justify-content: space-around;
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 #content > div div {
@@ -86,4 +87,8 @@ h2#title {
     font-size: 18px;
     text-align: center;
     color: gray;
+}
+
+h3 {
+    text-align: center;
 }

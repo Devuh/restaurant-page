@@ -4,6 +4,9 @@ import mark from "./imgs/mark.jpeg";
 
 export function pageLoad() {
     const content = document.querySelector("#content");
+    while (content.firstChild) {
+        content.removeChild(content.lastChild);
+    }
     const title = document.createElement("h2");
     title.id = "title";
     title.textContent = "Every byte counts!";
